@@ -51,6 +51,7 @@ function App() {
       </div>
       <div className="Clicker">
         <p>Clicks: {clicks}</p>
+        <p>Current Multiplier: {multiplier}x </p>
       </div>
 
       <div className="Multipliers">

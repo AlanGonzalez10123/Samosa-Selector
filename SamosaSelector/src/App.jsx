@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   const [clicks, setClicks] = useState(0)
+  const [multiplier, setMultiplier] =  useState(1)
 
   const handleClick = () => {setClicks(clicks + 1) }
 
@@ -10,11 +11,10 @@ function App() {
     <div className="App">
       <h1>Samosa Selector</h1>
       <div className="image">
-        <img className ="image" src="samosa.png"/>
+        <img onClick={handleClick} className ="image" src="samosa.png"/>
       </div>
       <div className="Clicker">
         <p>{clicks}</p>
-        <button onClick={handleClick}>Click ME </button>
       </div>
 
 

@@ -58,9 +58,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Samosa Selector</h1>
+      <h1>Taco Clicker</h1>
       <div className="image">
-        <img onClick={handleClick} className ="image" src="samosa.png" ref={imageRef}/>
+        <img onClick={handleClick} className ="image" src="taco.png" ref={imageRef}/>
       </div>
       <div className="Clicker">
         <p>Clicks: {clicks}</p>
@@ -71,19 +71,19 @@ function App() {
         <div className="two">
           <h3>Double Stuffed</h3>
           <h5>2x Multiplier</h5>
-          {twoFlag && <button onClick={doubler}>10 samosas</button>}
+          {twoFlag && <button onClick={doubler}>10 tacos</button>}
         </div>
 
         <div className="five">
           <h3>Party Pack</h3>
           <h5>5x Multiplier</h5>
-          {fiveFlag && <button onClick={fiveX}>100 samosas</button>}
+          {fiveFlag && <button onClick={fiveX}>100 tacos</button>}
         </div>
 
         <div className="ten">
           <h3>Full Feast</h3>
           <h5>10x Multiplier</h5>
-          {tenFlag && <button onClick={tenX}>1000 samosas</button>}
+          {tenFlag && <button onClick={tenX}>1000 tacos</button>}
         </div>
       </div>
 

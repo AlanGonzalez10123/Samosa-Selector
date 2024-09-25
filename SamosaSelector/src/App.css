@@ -21,3 +21,13 @@ body{
   color: white;
   justify-content: center;
 }
+
+.multiplier{
+  display: flex;
+  justify-self: center;
+}
+
+.two, .five, .ten{
+  display: inline-block;
+  margin: 30px
+}

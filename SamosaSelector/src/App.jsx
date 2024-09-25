@@ -2,10 +2,23 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [clicks, setClicks] = useState(0)
+
+  const handleClick = () => {setClicks(clicks + 1) }
 
   return (
-    <p>Hello</p>
+    <div className="App">
+      <h1>Samosa Selector</h1>
+      <div className="image">
+        <img className ="image" src="samosa.png"/>
+      </div>
+      <div className="Clicker">
+        <p>{clicks}</p>
+        <button onClick={handleClick}>Click ME </button>
+      </div>
+
+
+    </div>
   );
 }
 

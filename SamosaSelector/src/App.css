@@ -1,1 +1,23 @@
+body{
+  background-color: black;
+  color: white;
+}
 
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.image{
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Clicker{
+  color: white;
+  justify-content: center;
+}

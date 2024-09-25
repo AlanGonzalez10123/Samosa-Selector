@@ -29,5 +29,5 @@ body{
 
 .two, .five, .ten{
   display: inline-block;
-  margin: 30px
+  margin: 50px;
 }

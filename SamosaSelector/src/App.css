@@ -30,6 +30,11 @@ body{
 .two, .five, .ten{
   display: inline-block;
   margin: 50px;
+  padding: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  border: 2px solid yellow;
 }
 
 @keyframes pulsate {
@@ -46,4 +51,22 @@ body{
 
 .pulsate {
   animation: pulsate 0.5s ease-in-out;
+}
+
+button {
+  width: 150px;
+  height: 60px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: yellow;
+  font-size: 1.2em;
+  font-weight: 550;
+}
+
+button:hover {
+  background: black;
+  color: yellow;
+  font-size: 1.5em;
 }
